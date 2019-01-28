@@ -1,0 +1,155 @@
+/* Globale styles */
+h1, h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	font-size : 40px;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+h3 {
+	margin-top : 50px;
+	font-size : 25px;
+}
+
+quote {
+	font-size : 30px;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	margin:0;
+	font-size: 20px;
+	background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.9)),
+              url(../image/back.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+a {
+	color:#000000;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+/* header */
+
+header {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin : 0px;
+}
+
+header h1,
+header h2 {
+	margin : 0px;
+	font-size: 40px;
+}
+
+header h1 {
+	font-size: 80px;
+	font-family : 'Merienda', cursive;
+}
+
+
+/* navigation */
+
+nav {
+  text-align: center;
+  position : fixed;
+  top : 0;
+  width : 100%;
+  background: #99a9c4;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 40px;
+  text-decoration : none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* about me */
+
+.title {
+	padding-left: 400px;
+}
+
+/* content format */
+
+.content-wrap {
+	padding-top: 40px;
+	padding-left:60px;
+	padding-right: 60px;
+	margin : 0 auto;
+	overflow: hidden;
+}
+
+/* Profil Picture */ 
+
+.profil {
+	width: 300px;
+	float : left ;
+	margin-right : 20px;
+	padding : 40px;
+}
+
+/* Image Bespoke */
+
+/* Crowdfunding */
+
+.screenshot {
+	width: 300px;
+	display: inline-block;
+	padding-right : 30px;
+	padding-top : 30px;
+	padding-left: 0px
+	/*margin : 10px;*/
+}
+
+/* Interactive Card */
+.img {
+	width: 300px;
+	padding-left : 0px;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+
+/* Footer style */
+
+footer {
+	text-align: center;
+	padding-top: 20px
+	padding-bottom: 30px;
+	padding-left:60px;
+	padding-right: 60px;
+	margin : 0 auto;
+	overflow: hidden;
+    /*border-top : solid 3px #99a9c4 ;*/
+    background: rgba(141, 153, 174, 0.7)
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block 
+}
+
+/* Media */
+
+@media (max-width: 899px){
+  header {
+    text-align : center;
+  }
+}
+
